@@ -152,12 +152,17 @@ body {
 }
 
 .scores-container button {
+    background-color: var(--dark-gray-blue);
     width: 100%;
     color: var(--white);
     border: 0;
     border-radius: 2rem;
     padding: .8rem;
-    background-color: var(--dark-gray-blue);
+    cursor: pointer;
+}
+
+.scores-container button:hover {
+    background: linear-gradient(0deg, rgba(46,43,233,1) 0%, rgba(120,87,255,1) 100%);
 }
 
 .reaction {
